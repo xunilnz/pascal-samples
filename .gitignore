@@ -31,5 +31,5 @@ namelist2
 namelist3
 myset
 Inheritance
-lazarus/backup/
-lazarus/lib
+lazarus/backup/*
+lazarus/lib/*
