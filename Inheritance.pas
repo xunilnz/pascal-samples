@@ -61,7 +61,7 @@ var
   procedure Player.Display();
   begin
     Writeln('model: ', model);
-    Writeln('price: ', price:8:2);
+    Writeln('price: ', price:0:2);
   end;
 
   (* now the derived class methods *)
@@ -90,7 +90,7 @@ var
   procedure Tape.Display();
   begin
     Writeln('model: ',model);
-    Writeln('price: ',price:8:2);
+    Writeln('price: ',price:0:2);
     Writeln('Manufacturer: ',manufacturer);
   end;
 
