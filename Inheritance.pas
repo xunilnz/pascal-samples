@@ -61,7 +61,7 @@ var
   procedure Player.Display();
   begin
     Writeln('model: ', model);
-    Writeln('price: ', price);
+    Writeln('price: ', price:8:2);
   end;
 
   (* now the derived class methods *)
@@ -90,13 +90,13 @@ var
   procedure Tape.Display();
   begin
     Writeln('model: ',model);
-    Writeln('price: ',price);
+    Writeln('price: ',price:8:2);
     Writeln('Manufacturer: ',manufacturer);
   end;
 
 begin
   p1 := Tape.Create('Sony VCR');
-  p2 := Tape.Create('Toshiba','DVR20 DVD-VCR',437.75);
+  p2 := Tape.Create('Toshiba','DVR20 DVD-VCR',437.78);
   p1.setmanufacturer('Sony');
   p1.setPrice(475.99);
   p1.Display;
