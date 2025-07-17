@@ -1,0 +1,70 @@
+object frmMessage: TfrmMessage
+  Left = 684
+  Height = 673
+  Top = 158
+  Width = 708
+  Caption = 'frmMessage'
+  ClientHeight = 673
+  ClientWidth = 708
+  FormStyle = fsStayOnTop
+  LCLVersion = '4.0.0.4'
+  object Label1: TLabel
+    Left = 269
+    Height = 48
+    Top = 80
+    Width = 179
+    AutoSize = False
+    Caption = 'Message'
+    Color = clLime
+    Font.Height = 40
+    Font.Name = 'Showcard Gothic'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 304
+    Height = 54
+    Top = 432
+    Width = 97
+    Caption = 'Up'
+    TabOrder = 0
+    OnMouseDown = Button1MouseDown
+    OnMouseUp = Button1MouseUp
+  end
+  object Button2: TButton
+    Left = 264
+    Height = 49
+    Top = 496
+    Width = 83
+    Caption = 'Left'
+    TabOrder = 1
+    OnMouseDown = Button2MouseDown
+    OnMouseUp = Button2MouseUp
+  end
+  object Button3: TButton
+    Left = 360
+    Height = 48
+    Top = 496
+    Width = 88
+    Caption = 'Right'
+    TabOrder = 2
+    OnMouseDown = Button3MouseDown
+    OnMouseUp = Button3MouseUp
+  end
+  object Button4: TButton
+    Left = 304
+    Height = 64
+    Top = 552
+    Width = 97
+    Caption = 'Down'
+    TabOrder = 3
+    OnMouseDown = Button4MouseDown
+    OnMouseUp = Button4MouseUp
+  end
+  object Timer1: TTimer
+    Interval = 100
+    OnTimer = Timer1Timer
+    Left = 648
+    Top = 605
+  end
+end

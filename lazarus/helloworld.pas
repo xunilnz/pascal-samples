@@ -5,7 +5,7 @@ unit helloworld;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,message;
 
 type
 
@@ -13,7 +13,10 @@ type
 
   TfrmHello = class(TForm)
     Button1: TButton;
-    procedure Button1Click(Sender: TObject);
+    Edit1: TEdit;
+    Label1: TLabel;
+    procedure Test(Sender: TObject);
+    procedure Edit1Change(Sender: TObject);
   private
 
   public
@@ -29,9 +32,14 @@ implementation
 
 { TfrmHello }
 
-procedure TfrmHello.Button1Click(Sender: TObject);
+procedure TfrmHello.Test(Sender: TObject);
 begin
-  ShowMessage('Hello, World!');
+  frmMessage.Show;
+end;
+
+procedure TfrmHello.Edit1Change(Sender: TObject);
+begin
+  label1.Caption := edit1.Text;
 end;
 
 end.
