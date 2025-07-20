@@ -1,6 +1,7 @@
 anytrig
 *.bak
 *.o
+*.s
 dayinwords
 dayinwords2
 dayinwords3
