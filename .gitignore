@@ -21,7 +21,6 @@ repeatedloop
 roomtemp
 stringloop
 timetable
-*.lpi
 *.lps
 TokenizeString
 trig
