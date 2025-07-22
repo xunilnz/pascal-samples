@@ -24,6 +24,7 @@ type
  public
    constructor Create(m: String); overload;
    constructor Create(f: String; m: String; p: real); overload;
+   destructor Destroy; override;
    procedure setmanufacturer(f: String); // sets the manufacturer for a player
    function getmanufacturer(): string; // retrives the manufacturer
    procedure Display(); override;
@@ -75,6 +76,12 @@ var
   begin
     inherited Create(m,p);
     manufacturer:=f;
+  end;
+
+  destructor Tape.Destroy;
+  begin
+    writeln;
+    writeln('I''m Freeeeee!');
   end;
 
   procedure Tape.setmanufacturer(f: String); // sets manufacturer for a player
