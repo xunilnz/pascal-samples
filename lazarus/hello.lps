@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="hello.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="helloworld.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHello"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="74" Y="8"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="message.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMessage"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="95"/>
+        <CursorPos X="25" Y="129"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="26">
+      <Position>
+        <Filename Value="helloworld.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="helloworld.pas"/>
+        <Caret Line="34" Column="32" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="helloworld.pas"/>
+        <Caret Line="48" Column="26" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="helloworld.pas"/>
+        <Caret Line="44" Column="28" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="helloworld.pas"/>
+        <Caret Line="46" Column="12" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="helloworld.pas"/>
+        <Caret Line="47" Column="12" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="helloworld.pas"/>
+        <Caret Line="49" Column="12" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="helloworld.pas"/>
+        <Caret Line="57" Column="32" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="18" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="19" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="20" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="21" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="20" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="21" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="22" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="39" Column="3" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="9" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="60" Column="24" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="74" Column="24" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="64" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="24" Column="42" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="72" Column="24" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="86" Column="24" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="67" Column="68" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="83" Column="25" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="99" Column="25" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="message.pas"/>
+        <Caret Line="115" Column="25" TopLine="83"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
