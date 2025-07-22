@@ -17,9 +17,9 @@
         <Filename Value="unit1.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos X="3" Y="35"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -29,8 +29,10 @@
         <Filename Value="unit2.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit2"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="68" Y="34"/>
         <UsageCount Value="20"/>
@@ -70,6 +72,12 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1257"/>
         <CursorPos X="14" Y="1276"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mynewpackage/listview1.pas"/>
+        <UnitName Value="ListView1"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>

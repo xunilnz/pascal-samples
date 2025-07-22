@@ -32,6 +32,8 @@ myset
 Inheritance
 lazarus/backup/*
 lazarus/lib/*
+lazarus/mynewpackage/lib/*
+lazarus/mynewpackage/backup/*
 realdemo
 datafiles
 dividebyzero
