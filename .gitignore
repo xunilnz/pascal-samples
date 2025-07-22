@@ -21,7 +21,6 @@ repeatedloop
 roomtemp
 stringloop
 timetable
-*.lps
 TokenizeString
 trig
 *.ppu
