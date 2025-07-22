@@ -9,7 +9,7 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-# Get the first .pas file in the current directory
+# Gets the program from first output parameter. Alternative: Get the first .pas file in the current directory
 PAS_FILE=$1.pas #OR(ls *.pas 2>/dev/null | head -n 1)
 
 if [ -z "$PAS_FILE" ]; then
