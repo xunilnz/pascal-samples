@@ -33,3 +33,6 @@ Inheritance
 lazarus/backup/*
 lazarus/lib/*
 realdemo
+datafiles
+dividebyzero
+dayinwords4
