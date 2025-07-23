@@ -6,6 +6,7 @@ object Form1: TForm1
   Caption = 'PCD'
   ClientHeight = 571
   ClientWidth = 878
+  Position = poScreenCenter
   LCLVersion = '4.0.0.4'
   OnCreate = FormCreate
   object StringGrid1: TStringGrid

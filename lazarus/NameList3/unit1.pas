@@ -338,7 +338,7 @@ begin
 
   {$I-}
   AssignFile(f,myFile);
-  Reset(f);
+  Reset(f); // Open the file for read
   {$I+}
 
   try
