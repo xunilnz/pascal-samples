@@ -38,7 +38,9 @@ type
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
     procedure Button7Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure frmInit;
@@ -109,9 +111,9 @@ end;
 
 function TForm1.IsDataCheckOk : Integer;
 var
-  flg:integer;
+  flg : Integer;
 begin
-  flg:=0;
+  flg := 0;
   if (Form1.Edit1.Text='') or (Form1.Edit2.Text = '') or (Form1.Edit3.Text = '') or (Form1.Edit4.Text = '') then
      ShowMessage('Please enter all information')
   else
@@ -130,6 +132,12 @@ procedure TForm1.Button5Click(Sender: TObject);
 begin
   Names1.savedata;
   ShowMessage('Successfully Saved');
+end;
+
+procedure TForm1.Button6Click(Sender: TObject);
+begin
+  Names1.loaddata;
+  frmInit;
 end;
 
 procedure TForm1.Button7Click(Sender: TObject);
@@ -165,15 +173,48 @@ begin
   frmInit;
 end;
 
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  Names1.delete;
+  frmInit;
+end;
+
 procedure TNames.initial; // Set default names
 begin
+  SetLength(names,6);
+  with names[1] do begin Name:='Tom'; Age:=34; Gender:='Male'; Height:='5,5"'; end;
+  with names[2] do begin Name:='Pauline'; Age:=35; Gender:='Female'; Height:='5,2"'; end;
+  with names[3] do begin Name:='Aaron'; Age:=45; Gender:='Male'; Height:='4,9"'; end;
+  with names[4] do begin Name:='Jane'; Age:=46; Gender:='Female'; Height:='5,11"'; end;
+  with names[5] do begin Name:='John'; Age:=25; Gender:='Male'; Height:='6,1"'; end;
 
+  count:=6
 end;
 
 procedure TNames.sort;
-begin
+var
+  innercount,outercount: integer;
+  begin
+    for outercount := 1 to count-1 do
+    begin
+      for innercount := outercount+1 to count-1 do
+      begin
+        if UpperCase(LeftStr(names[outercount].Name,1)) > UpperCase(LeftStr(names[innercount].Name,1))
+        then
+        begin
+          names[0].Name:=names[outercount].Name;names[0].Age:=names[outercount].Age;
+          names[0].Gender:=names[outercount].Gender;names[0].Height:=names[outercount].Height;
+          names[outercount].Name:=names[innercount].Name;
+          names[outercount].Age:=names[innercount].Age;
+          names[outercount].Gender:=names[innercount].Gender;
+          names[outercount].Height:=names[innercount].Height;
+          names[innercount].Name:=names[0].Name;names[innercount].Age:=names[0].Age;
+          names[innercount].Gender:=names[0].Gender;names[innercount].Height:=names[0].Height;
+        end;
+      end;
+    end;
+  end;
 
-end;
 
 procedure TNames.insert; // Insert a new entry at specified location
 var
@@ -246,13 +287,14 @@ begin
 
   for i:=1 to Names1.count do
   begin
-    with Form1.StringGrid1 do begin
+    with Form1.StringGrid1 do
+     begin
       cells[0,i]:=IntToStr(i);
       cells[1,i]:=names[i].Name;
       cells[2,i]:=IntToStr(names[i].Age);
       cells[3,i]:=names[i].Gender;
       cells[4,i]:=names[i].Height;
-    end;
+     end;
   end;
 end;
 

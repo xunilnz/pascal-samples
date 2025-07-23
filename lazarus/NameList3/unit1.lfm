@@ -15,6 +15,13 @@ object Form1: TForm1
     Width = 824
     TabOrder = 0
     OnClick = StringGrid1Click
+    ColWidths = (
+      47
+      177
+      62
+      123
+      74
+    )
   end
   object Edit1: TEdit
     Left = 96
@@ -82,6 +89,7 @@ object Form1: TForm1
     Width = 75
     Caption = '&Delete'
     TabOrder = 8
+    OnClick = Button4Click
   end
   object Button5: TButton
     Left = 488
@@ -99,6 +107,7 @@ object Form1: TForm1
     Width = 75
     Caption = '&Load'
     TabOrder = 10
+    OnClick = Button6Click
   end
   object Button7: TButton
     Left = 632
@@ -178,7 +187,7 @@ object Form1: TForm1
     Top = 33
   end
   object SaveDialog1: TSaveDialog
-    FileName = '/home/kim/person.dat'
+    FileName = 'person.dat'
     Left = 784
     Top = 96
   end
