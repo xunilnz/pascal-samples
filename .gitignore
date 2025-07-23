@@ -38,3 +38,6 @@ realdemo
 datafiles
 dividebyzero
 dayinwords4
+lazarus/NameList3/lib/*
+lazarus/NameList3/backup/*
+lazarus/NameList3/NameList3
