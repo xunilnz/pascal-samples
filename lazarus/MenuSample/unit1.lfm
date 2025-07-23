@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 1068
+  Height = 635
+  Top = 175
+  Width = 810
+  Caption = 'Form1'
+  Menu = MainMenu1
+  LCLVersion = '4.0.0.4'
+  object MainMenu1: TMainMenu
+    Left = 29
+    Top = 12
+    object mnFile: TMenuItem
+      Caption = 'File'
+      object mnOpen: TMenuItem
+        Caption = 'Open...'
+        OnClick = mnOpenClick
+      end
+      object mnSave: TMenuItem
+        Caption = 'Save'
+      end
+      object mnSaveAs: TMenuItem
+        Caption = 'Save As...'
+      end
+      object mnPrint: TMenuItem
+        Caption = 'Print'
+      end
+      object mnSpace: TMenuItem
+        Caption = '-'
+        Enabled = False
+      end
+      object mnExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mnExitClick
+      end
+    end
+    object mnEdit: TMenuItem
+      Caption = 'Edit'
+      object mnUndo: TMenuItem
+        Caption = 'Undo'
+      end
+      object mnCut: TMenuItem
+        Caption = 'Cut'
+      end
+      object mnCopy: TMenuItem
+        Caption = 'Copy'
+      end
+      object mnPaste: TMenuItem
+        Caption = 'Paste'
+      end
+      object mnDelete: TMenuItem
+        Caption = 'Delete'
+      end
+      object mnspace1: TMenuItem
+        Caption = '-'
+      end
+      object mnFind: TMenuItem
+        Caption = 'Find'
+      end
+      object mnFindNxt: TMenuItem
+        Caption = 'Find Next'
+      end
+      object mnReplace: TMenuItem
+        Caption = 'Replace'
+      end
+      object mnSpace3: TMenuItem
+        Caption = '-'
+      end
+      object mnSelectAll: TMenuItem
+        Caption = 'Select All'
+      end
+      object mnTimeDate: TMenuItem
+        Caption = 'Time/Date'
+      end
+    end
+    object mnHelp: TMenuItem
+      Caption = 'Help'
+      object mnHlpContent: TMenuItem
+        Caption = 'Content'
+      end
+      object mnHlpAbout: TMenuItem
+        Caption = 'About'
+        object mnSystem: TMenuItem
+          Caption = 'System'
+        end
+      end
+    end
+  end
+end
