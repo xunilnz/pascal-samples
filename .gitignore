@@ -44,3 +44,7 @@ lazarus/NameList3/NameList3
 lazarus/MenuSample/backup/*
 lazarus/MenuSample/lib/*
 lazarus/MenuSample/menusample*
+lazarus/Graphics1/backup/*
+lazarus/Graphics1/lib/x86_64-linux
+lazarus/Graphics1/project1
+
