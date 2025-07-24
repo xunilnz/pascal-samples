@@ -1,20 +1,21 @@
 object Form1: TForm1
   Left = 1055
-  Height = 654
+  Height = 496
   Top = 185
   Width = 842
   Caption = 'Form1'
-  ClientHeight = 654
+  ClientHeight = 496
   ClientWidth = 842
   LCLVersion = '4.0.0.4'
   OnPaint = Button1Click
   object Button1: TButton
-    Left = 704
+    Left = 720
     Height = 25
-    Top = 600
+    Top = 448
     Width = 75
     Caption = 'Button1'
     TabOrder = 0
+    Visible = False
     OnClick = Button1Click
   end
 end
