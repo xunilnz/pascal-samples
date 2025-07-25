@@ -1,0 +1,22 @@
+{"version": "2.0",
+
+"metaData": {"fields":[
+            {"attrname": "id","feildname":"id", "fieldtype": "i4" },
+            {"width": "50", "attrname": "ptsur", "fieldname": "ptsur", "fieldtype": "string"},
+            {"width": "50", "attrname": "ptfn", "fieldname": "ptfn", "fieldtype": "string"},
+            {"width": "1", "attrname": "sex", "fieldname": "sex", "fieldtype": "string"},
+            {"width": "20", "attrname": "ptttl", "fieldname": "ptttl", "fieldtype": "string"},
+            {"width": "8", "attrname": "dob", "fieldname": "dob", "fieldtype": "string"}
+            ]
+            },
+"rows":[
+        {"id": "1","ptsur": "Andrews", "ptfn": "Angie", "sex": "F", "ptttl": "Ms", "dob": "19210103"},
+        {"id": "2","ptsur": "Smith", "ptfn": "Bobby", "sex": "M", "ptttl": "Mr", "dob": "19901201"},
+        {"id": "3","ptsur": "Corey", "ptfn": "Fred", "sex": "M", "ptttl": "Dr", "dob": "19751112"},
+        {"id": "4","ptsur": "Black", "ptfn": "Abby", "sex": "F", "ptttl": "Mrs", "dob": "14891002"},
+        {"id": "5","ptsur": "White", "ptfn": "Leigh", "sex": "F", "ptttl": "Miss", "dob": "19930526"},
+        {"id": "6","ptsur": "Pratt", "ptfn": "Leeth", "sex": "M", "ptttl": "Sir", "dob": "19951217"},
+        {"id": "7","ptsur": "Johns", "ptfn": "Sarah", "sex": "F", "ptttl": "Mrs", "dob": "19001205"}
+       ]
+}
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATAPACKET Version="2.0">
+    <METADATA>
+        <FIELDS>
+            <FIELD attrname="id" feildname="id" fieldtype="i4" />
+            <FIELD width="50" attrname="ptsur" feildname="ptsur" fieldtype="string" />
+            <FIELD width="50" attrname="ptfn" feildname="ptfn" fieldtype="string" />
+            <FIELD width="1" attrname="sex" feildname="sex" fieldtype="string" />
+            <FIELD width="20" attrname="ptttl" feildname="ptttl" fieldtype="string" />
+            <FIELD width="8" attrname="dob" feildname="dob" fieldtype="string" />
+        </FIELDS>
+        <PARAMS />
+    </METADATA>
+    <ROWDATA>
+        <ROW id="1" ptsur="Smith" ptfn="John" sex="M" ptttl="Mr" dob="19790302"/>
+        <ROW id="2" ptsur="Brown" ptfn="Jane" sex="F" ptttl="Mrs" dob="19750302"/>
+        <ROW id="3" ptsur="Thompson" ptfn="Peter" sex="M" ptttl="Mr" dob="19870112"/>
+        <ROW id="4" ptsur="Jones" ptfn="Arron" sex="M" ptttl="Mr" dob="20010213"/>
+        <ROW id="5" ptsur="Chung" ptfn="Li" sex="M" ptttl="Mr" dob="19950504"/>
+        <ROW id="6" ptsur="Abiola" ptfn="Jeff" sex="M" ptttl="Mr" dob="19671201"/>
+        <ROW id="7" ptsur="Palman" ptfn="Debby" sex="F" ptttl="Ms" dob="19490425"/>
+    </ROWDATA>
+</DATAPACKET>

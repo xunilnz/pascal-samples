@@ -1,0 +1,54 @@
+object Form1: TForm1
+  Left = 403
+  Height = 322
+  Top = 197
+  Width = 459
+  Caption = 'Form1'
+  ClientHeight = 322
+  ClientWidth = 459
+  LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'XML Data'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object StringGrid1: TStringGrid
+    Left = 24
+    Height = 240
+    Top = 24
+    Width = 392
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 128
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'JSON Data'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 232
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'Load CSV'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 341
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'Save CSV'
+    TabOrder = 4
+    OnClick = Button4Click
+  end
+end
