@@ -47,4 +47,13 @@ lazarus/MenuSample/menusample*
 lazarus/Graphics1/backup/*
 lazarus/Graphics1/lib/x86_64-linux
 lazarus/Graphics1/project1
+lazarus/NameList4/NameList4
+lazarus/NameList4/lib/*
+lazarus/NameList4/backup/*
+lazarus/FileHandling/FileHandling
+lazarus/FileHandling/lib/*
+lazarus/FileHandling/backup/*
+lazarus/FileHandling2/FileHandling2
+lazarus/FileHandling2/lib/*
+lazarus/FileHandling2/backup/*
 
