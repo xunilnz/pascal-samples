@@ -32,6 +32,7 @@ begin
   zmds.DataSet:=zmqu;
 
   if zmc.Connected then
+  // TODO: Add CallBack or implement ISStatusNotifier to update Label1 on Form1
     //ShowMessage('Connected')
   else
   // TODO: Add CallBack or implement ISStatusNotifier to update Label1 on Form1
