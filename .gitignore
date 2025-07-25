@@ -10,7 +10,6 @@ fp___.*
 fp.*
 hello
 hello2
-*.res
 multiarrays
 myfirstObjProj
 namelist
@@ -56,4 +55,7 @@ lazarus/FileHandling/backup/*
 lazarus/FileHandling2/FileHandling2
 lazarus/FileHandling2/lib/*
 lazarus/FileHandling2/backup/*
+lazarus/ZMSQLSample/lib/*
+lazarus/ZMSQLSample/backup/*
+lazarus/ZMSQLSample/project1
 
