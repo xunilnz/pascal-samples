@@ -33,9 +33,8 @@ begin
 
   if zmc.Connected then
     //ShowMessage('Connected')
-    //label1.caption:='Connected'
   else
-    //label1.caption:='Not Connected');
+  // TODO: Add CallBack or implement ISStatusNotifier to update Label1 on Form1
     showMessage('zmSQL Connection Failed');
 
   zmq:=zmds.DataSet;
