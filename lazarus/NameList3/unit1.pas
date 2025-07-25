@@ -285,7 +285,7 @@ begin
   Form1.StringGrid1.Cells[3,0]:='Gender';
   Form1.StringGrid1.Cells[4,0]:='Height';
 
-  for i:=1 to Names1.count do
+  for i:=1 to Names1.count-1 do
   begin
     with Form1.StringGrid1 do
      begin
