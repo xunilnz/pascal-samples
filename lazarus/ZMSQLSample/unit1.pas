@@ -49,7 +49,7 @@ end;
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   if (memo1.text='') then begin
-    ShowMessage('Please enter an SQL script and table name');
+    ShowMessage('Please enter an SQL Statement and Table to work with');
     exit;
   end;
   showResult(memo1.Text,'dummy','dummy');
