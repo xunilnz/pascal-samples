@@ -1,0 +1,21 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 162
+  HorizontalOffset = 1513
+  VerticalOffset = 190
+  Width = 267
+  object DataSource1: TDataSource
+    DataSet = SQLQuery1
+    Left = 40
+    Top = 32
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Database = DataModule1.SQLite3Connection1
+    Transaction = DataModule1.SQLTransaction1
+    Params = <>
+    Macros = <>
+    Left = 136
+    Top = 32
+  end
+end
