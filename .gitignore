@@ -58,4 +58,6 @@ lazarus/FileHandling2/backup/*
 lazarus/ZMSQLSample/lib/*
 lazarus/ZMSQLSample/backup/*
 lazarus/ZMSQLSample/project1
-
+lazarus/SQLite3Demo/sqlite3demo
+lazarus/SQLite3Demo/lib/*
+lazarus/SQLite3Demo/backup/*

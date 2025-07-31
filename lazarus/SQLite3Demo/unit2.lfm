@@ -1,0 +1,23 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 126
+  HorizontalOffset = 1517
+  VerticalOffset = 406
+  Width = 266
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = True
+    LoginPrompt = False
+    DatabaseName = 'demodb.sqlite'
+    KeepConnection = False
+    Transaction = SQLTransaction1
+    AlwaysUseBigint = False
+    Left = 40
+    Top = 16
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = SQLite3Connection1
+    Left = 168
+    Top = 16
+  end
+end
