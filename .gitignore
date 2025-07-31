@@ -58,4 +58,9 @@ lazarus/FileHandling2/backup/*
 lazarus/ZMSQLSample/lib/*
 lazarus/ZMSQLSample/backup/*
 lazarus/ZMSQLSample/project1
-
+lazarus/ZEOSDBSample/project1
+lazarus/ZEOSDBSample/lib/*
+lazarus/ZEOSDBSample/backup/*
+lazarus/ZEOSOrderEntry/project1
+lazarus/ZEOSOrderEntry/lib/*
+lazarus/ZEOSOrderEntry/backup/*
