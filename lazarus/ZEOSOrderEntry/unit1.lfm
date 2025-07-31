@@ -1,0 +1,261 @@
+object Form1: TForm1
+  Left = 240
+  Height = 640
+  Top = 149
+  Width = 790
+  Caption = 'Form1'
+  ClientHeight = 640
+  ClientWidth = 790
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 27
+    Height = 17
+    Top = 64
+    Width = 99
+    Caption = 'Account Number:'
+  end
+  object Label2: TLabel
+    Left = 136
+    Height = 17
+    Top = 64
+    Width = 264
+    AutoSize = False
+    Caption = 'Label2'
+  end
+  object Label3: TLabel
+    Left = 84
+    Height = 17
+    Top = 88
+    Width = 38
+    Caption = 'Name:'
+  end
+  object Label4: TLabel
+    Left = 136
+    Height = 17
+    Top = 88
+    Width = 264
+    AutoSize = False
+    Caption = 'Label4'
+  end
+  object Label5: TLabel
+    Left = 77
+    Height = 17
+    Top = 112
+    Width = 49
+    Caption = 'Address:'
+  end
+  object Label6: TLabel
+    Left = 136
+    Height = 17
+    Top = 112
+    Width = 262
+    AutoSize = False
+    Caption = 'Label6'
+  end
+  object Label7: TLabel
+    Left = 136
+    Height = 17
+    Top = 136
+    Width = 264
+    AutoSize = False
+    Caption = 'Label7'
+  end
+  object Label8: TLabel
+    Left = 71
+    Height = 17
+    Top = 160
+    Width = 55
+    Caption = 'Postcode:'
+  end
+  object Label9: TLabel
+    Left = 136
+    Height = 17
+    Top = 160
+    Width = 72
+    AutoSize = False
+    Caption = 'Label9'
+  end
+  object Label10: TLabel
+    Left = 88
+    Height = 17
+    Top = 184
+    Width = 34
+    Caption = 'Email:'
+  end
+  object Label11: TLabel
+    Left = 136
+    Height = 17
+    Top = 185
+    Width = 260
+    AutoSize = False
+    Caption = 'Label11'
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 35
+    Height = 25
+    Top = 238
+    Width = 237
+    ListFieldIndex = 0
+    LookupCache = False
+    TabOrder = 0
+    OnChange = DBLookupComboBox1Change
+  end
+  object DBLookupComboBox2: TDBLookupComboBox
+    Left = 288
+    Height = 25
+    Top = 238
+    Width = 352
+    ListFieldIndex = 0
+    LookupCache = False
+    TabOrder = 1
+    OnChange = DBLookupComboBox2Change
+  end
+  object DBLookupComboBox3: TDBLookupComboBox
+    Left = 35
+    Height = 25
+    Top = 320
+    Width = 232
+    ListFieldIndex = 0
+    LookupCache = False
+    TabOrder = 2
+    OnChange = DBLookupComboBox3Change
+    OnClick = DBLookupComboBox3Click
+  end
+  object DBGrid1: TDBGrid
+    Left = 8
+    Height = 280
+    Top = 352
+    Width = 776
+    Color = clWindow
+    Columns = <>
+    DataSource = DataSource1
+    TabOrder = 3
+  end
+  object Edit1: TEdit
+    Left = 392
+    Height = 25
+    Top = 320
+    Width = 80
+    TabOrder = 4
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 486
+    Height = 25
+    Top = 320
+    Width = 80
+    TabOrder = 5
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 288
+    Height = 25
+    Top = 320
+    Width = 80
+    TabOrder = 6
+    Text = 'Edit3'
+  end
+  object Button1: TButton
+    Left = 616
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = 'Button1'
+    TabOrder = 7
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 704
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = 'Button2'
+    TabOrder = 8
+    OnClick = Button2Click
+  end
+  object Label12: TLabel
+    Left = 16
+    Height = 17
+    Top = 27
+    Width = 194
+    AutoSize = False
+    Caption = 'Customer Details'
+  end
+  object Label13: TLabel
+    Left = 35
+    Height = 17
+    Top = 216
+    Width = 92
+    Caption = 'Select Customer'
+  end
+  object Label14: TLabel
+    Left = 288
+    Height = 17
+    Top = 216
+    Width = 93
+    Caption = 'Select Order Ref'
+  end
+  object Label15: TLabel
+    Left = 36
+    Height = 17
+    Top = 272
+    Width = 103
+    Caption = 'Add Item to Order'
+  end
+  object Label16: TLabel
+    Left = 39
+    Height = 17
+    Top = 303
+    Width = 82
+    Caption = 'Select Product'
+  end
+  object Label17: TLabel
+    Left = 290
+    Height = 17
+    Top = 303
+    Width = 51
+    Caption = 'Sell Price'
+  end
+  object Label18: TLabel
+    Left = 392
+    Height = 17
+    Top = 303
+    Width = 56
+    Caption = 'Enter QTY'
+  end
+  object Label19: TLabel
+    Left = 486
+    Height = 17
+    Top = 303
+    Width = 50
+    Caption = 'Totl Cost'
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP'
+    )
+    DisableSavepoints = False
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'lazdb'
+    User = 'staff'
+    Password = 'password'
+    Protocol = 'mariadb'
+    Left = 488
+    Top = 48
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    Params = <>
+    DataSource = DataSource1
+    Left = 552
+    Top = 48
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery1
+    Left = 616
+    Top = 48
+  end
+end
