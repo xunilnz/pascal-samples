@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 248
+  Height = 500
+  Top = 173
+  Width = 669
+  Caption = 'Form1'
+  ClientHeight = 500
+  ClientWidth = 669
+  LCLVersion = '4.2.0.0'
+  object DBGrid1: TDBGrid
+    Left = 8
+    Height = 304
+    Top = 184
+    Width = 656
+    Color = clWindow
+    Columns = <>
+    DataSource = DataSource1
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 154
+    Top = 15
+    Width = 512
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 544
+    Height = 25
+    Top = 144
+    Width = 112
+    Caption = 'Execute SQL'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP'
+    )
+    DisableSavepoints = False
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'lazdb'
+    User = 'staff'
+    Password = 'password'
+    Protocol = 'mariadb'
+    Left = 552
+    Top = 24
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'SELECT * FROM customer'
+    )
+    Params = <>
+    Left = 624
+    Top = 24
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery1
+    Left = 552
+    Top = 96
+  end
+end
