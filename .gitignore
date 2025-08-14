@@ -65,8 +65,9 @@ lazarus/ZEOSDBSample/backup/*
 lazarus/ZEOSOrderEntry/project1
 lazarus/ZEOSOrderEntry/lib/*
 lazarus/ZEOSOrderEntry/backup/*
-=======
 lazarus/SQLite3Demo/sqlite3demo
 lazarus/SQLite3Demo/lib/*
 lazarus/SQLite3Demo/backup/*
 lazarus/SQLite3Demo/sqlite3demo.exe
+lazarus/SQLite3Demo/sqlite3demo-32.exe
+
